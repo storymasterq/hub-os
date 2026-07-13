@@ -1,0 +1,36 @@
+server-list-scene-title = Lista de Servidores
+server-list-context-menu-label = OPCIONES
+server-list-context-menu-tip = MENÚ
+server-list-option-new = NUEVO
+server-list-option-edit = EDITAR
+server-list-option-move = MOVER
+server-list-option-delete = BORRAR
+server-list-delete-question = ¿Borrar { $name }?
+server-edit-scene-title = Editar Servidor
+server-edit-new-scene-title = Nuevo Servidor
+server-edit-save = Guardar
+server-edit-cancel = Cancelar
+server-edit-name-label = NOMBRE
+server-edit-address-label = DIRECCIÓN
+server-offline-message = { $name } no está en línea.
+server-behind-message = { $name } está atrasado. Hay que degradar para conectarse.
+server-ahead-message = { $name } está adelantado. Hay que actualizar para conectarse.
+server-incompatible-message = { $name } es incompatible.
+server-generic-behind-message = El servidor está atrasado. Hay que degradar para conectarse.
+server-generic-ahead-message = El servidor está adelantado. Hay que actualizar para conectarse.
+server-generic-incompatible-message = El servidor es incompatible.
+server-invalid-address-message = No pude entender la dirección para { $name }.
+server-connection-failed = Conexión fallida.
+server-kicked = Nos expulsaron: "{ $reason }"
+server-disconnected =
+    Todo está quieto.{ "\u0001" }..{ "\u0001" }
+    Parece que nos hemos desconectado.
+server-warp-failed = Parece que el área siguiente no está en línea...
+server-leave-question = ¿Desconectarse?
+emotes-menu-search = BUSCAR
+items-scene-title = Objetos
+items-no-items-item = Sin objetos
+items-no-items-description = No tienes objetos.
+key-items-scene-title = Objetos Clave
+key-items-no-items-description = No tienes Objetos Clave.
+shop-leave-question = ¿Ya te vas?

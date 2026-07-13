@@ -1,0 +1,13 @@
+navigation-option-servers = Conectar
+navigation-option-decks = Carpetas
+navigation-option-items = Objetos
+navigation-option-library = Librería
+navigation-option-character-status = Navi
+navigation-option-mail = E-Mail
+navigation-option-key-items = ObjClave
+navigation-option-battle-sim = Sim
+navigation-option-config = Config
+navigation-health-label = Salud
+navigation-quit-question = ¿Cerrar Hub OS?
+navigation-yes = Sí
+navigation-no = No

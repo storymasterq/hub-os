@@ -1,0 +1,13 @@
+animation state="DEFAULT"
+blank
+point label="LIST_START" x="122" y="20"
+point label="LIST_END" x="230" y="150"
+point label="HP" x="3" y="16"
+point label="ELEMENT" x="102" y="16"
+point label="NAME" x="3" y="147"
+
+animation state="INVALID_BADGE"
+frame x="2" y="1" w="12" h="13" originx="-4" originy="-6"
+
+animation state="LOCKED_BADGE"
+frame x="19" y="1" w="10" h="13" originx="-5" originy="-6"

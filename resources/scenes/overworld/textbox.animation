@@ -1,0 +1,21 @@
+# @frame_rate 60
+
+animation state="IDLE"
+frame duration="1f" x="10" y="76" w="238" h="65" originx="119" originy="31" flipx="0" flipy="0"
+point label="AVATAR" x="4" y="8"
+point label="TEXT_TOP_LEFT" x="52" y="10"
+point label="TEXT_BOTTOM_RIGHT" x="229" y="55"
+point label="NEXT" x="233" y="58"
+
+animation state="OPEN"
+blank
+frame duration="1f" x="10" y="6" w="238" h="21" originx="119" originy="11" flipx="0" flipy="0"
+frame duration="1f" x="10" y="30" w="238" h="42" originx="119" originy="18" flipx="0" flipy="0"
+frame duration="1f" x="10" y="76" w="238" h="64" originx="119" originy="31" flipx="0" flipy="0"
+frame duration="1f" x="10" y="76" w="238" h="64" originx="119" originy="31" flipx="0" flipy="0"
+
+animation state="CLOSE"
+frame duration="1f" x="10" y="76" w="238" h="64" originx="119" originy="31" flipx="0" flipy="0"
+frame duration="1f" x="10" y="30" w="238" h="42" originx="119" originy="18" flipx="0" flipy="0"
+frame duration="1f" x="11" y="6" w="237" h="21" originx="119" originy="11" flipx="0" flipy="0"
+frame duration="1f" x="11" y="6" w="237" h="21" originx="119" originy="11" flipx="0" flipy="0"

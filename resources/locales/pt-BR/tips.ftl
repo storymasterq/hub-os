@@ -1,0 +1,14 @@
+tip-prefixed = Dica: { $tip }
+tip-change-display-name = Seu apelido pode ser alterado em Configs. -> Online -> Trocar Apelido.
+tip-view-display-name = Você pode ver os apelidos ao colocar o cursor do mouse em outro personagem no Cibermundo.
+tip-server-music = Mods de Recursos podem personalizar Visuais, Sons e Música. Incluindo a música padrão do servidor.
+tip-open-map = O mapa pode ser aberto com { $binding }.
+tip-open-emotes = Emotes podem ser acessados pressionando { $binding }.
+tip-turn-around = Algumas batalhas permitem que você se vire usando { $binding }.
+tip-flipping-cards = Efeitos de status e outras propriedades estão listadas nos registros dos chips. Use { $binding } para ver a parte de trás de um chip.
+tip-special-button = O botão { $binding } é usado para ativar o equipamento extra, como escudos. Isso é semelhante ao comando de B + Esquerda dos jogos.
+tip-auto-emotes = Um emoji de pensamento vai aparecer sobre os jogadores mexendo nas configurações.
+tip-move-cards-in-bulk = Na edição de pastas, ao apertar { $binding } por um segundo em um chip escolhido, você move ele e suas cópias (do mesmo código) para a sua pasta ou removê-la do mesmo.
+tip-binding-with-key = { $input } ({ $key } no teclado)
+tip-binding-with-button = { $input } ({ $button } no controle)
+tip-binding-with-key-and-button = { $input } ({ $key } no teclado ou { $button } em um controle)

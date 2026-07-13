@@ -1,0 +1,11 @@
+element-none = Nada
+element-fire = Fuego
+element-aqua = Aqua
+element-elec = Elec
+element-wood = Madera
+element-sword = Espada
+element-wind = Viento
+element-cursor = Cursor
+element-summon = Invoca
+element-plus = Plus
+element-break = Romper

@@ -1,0 +1,14 @@
+tip-prefixed = Consejo: { $tip }
+tip-change-display-name = Tu apodo se puede cambiar en Config -> En Línea -> Apodo.
+tip-view-display-name = Puedes ver apodos colocando el cursor sobre otro personaje en el cibermundo.
+tip-server-music = Los mods de recursos pueden personalizar gráficos, sonidos y música, incluyendo música predeterminada del servidor.
+tip-open-map = El mapa se puede abrir con { $binding }.
+tip-open-emotes = Se puede acceder a los gestos pulsando { $binding }.
+tip-turn-around = Algunas batallas te permiten darte la vuelta usando { $binding }.
+tip-flipping-cards = Los efectos de estado y otras propiedades están listados en la parte trasera de los chips. Usa { $binding } para ver el lado de atrás del chip.
+tip-special-button = { $binding } se usa para activar equipamiento extra como escudos. Esto es similar a B+Izquierda en otros juegos.
+tip-auto-emotes = Un ícono de pensamiento aparecerá sobre jugadores revisando sus configuraciones.
+tip-move-cards-in-bulk = Editar Carpeta te permite mover chips en grupo sosteniendo { $binding } por un segundo.
+tip-binding-with-key = { $input } ({ $key } en el teclado)
+tip-binding-with-button = { $input } ({ $button } en el mando)
+tip-binding-with-key-and-button = { $input } ({ $key } en el teclado o { $button } en un mando)

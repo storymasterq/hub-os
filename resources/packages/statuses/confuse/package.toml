@@ -1,0 +1,13 @@
+[package]
+category = "status"
+id = "dev.hubos.Statuses.Confuse"
+name = "Confuse Status"
+flag_name = "Confuse"
+mutual_exclusions = ["Freeze", "Paralyze"]
+blocks_actions = false
+blocks_mobility = false
+ailment = true
+durations = [480]
+
+[dependencies]
+augments = ["dev.hubos.Augments.Confuse"]

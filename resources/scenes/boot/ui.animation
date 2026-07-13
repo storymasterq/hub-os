@@ -1,0 +1,10 @@
+animation state="DEFAULT"
+frame w="240" h="160"
+point label="LOG_START" x="4" y="4"
+point label="LOG_END" x="236" y="144"
+point label="STATUS_CENTER" x="120" y="149"
+point label="BAR_START" y="154"
+point label="BAR_END" x="240" y="160"
+
+animation state="PROGRESS_BAR"
+frame x="0" y="159" w="1" h="1"
