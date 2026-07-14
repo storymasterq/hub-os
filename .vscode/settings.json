@@ -1,0 +1,27 @@
+{
+  "Lua.workspace.library": [
+    "${workspaceFolder}"
+  ],
+  "Lua.runtime.version": "Lua 5.3",
+  "Lua.diagnostics.globals": [
+    "assert",
+    "error",
+    "getmetatable",
+    "ipairs",
+    "loadfile",
+    "next",
+    "pairs",
+    "pcall",
+    "print",
+    "rawequal",
+    "rawget",
+    "rawset",
+    "select",
+    "setmetatable",
+    "tonumber",
+    "tostring",
+    "type",
+    "unpack",
+    "xpcall"
+  ]
+}
