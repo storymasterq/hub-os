@@ -1,4 +1,5 @@
 local ScriptNodes = require("scripts/libs/script_nodes")
+local Direction = require("scripts/libs/direction")
 
 local scripts = ScriptNodes:new()
 
@@ -47,6 +48,48 @@ Net:on("item_use", function(event)
     Net.give_player_item(event.player_id, event.item_id, -1)
     callback(event)
   end
+end)
+
+-- Moves a map object one full isometric tile in the requested direction.
+--
+-- Expected event fields:
+--   player_id: player whose current area contains the object
+--   object_id: object id in the area
+--   direction: a Direction value, such as Direction.UP or Direction.UP_LEFT
+Net:on("gate_open", function(event)
+  if not event.player_id or not event.object_id or not event.direction then
+    print("[gate_open] Missing player_id, object_id, or direction")
+    return
+  end
+
+  local area_id = Net.get_actor_area(event.player_id)
+  local object = Net.get_object_by_id(area_id, event.object_id)
+
+  if not object then
+    print("[gate_open] Object not found: " .. tostring(event.object_id))
+    return
+  end
+
+  local direction = tostring(event.direction):upper():gsub("_", " ")
+  local tile_x, tile_y = Direction.vector_multi(direction)
+
+  if not tile_x then
+    print("[gate_open] Invalid direction: " .. tostring(event.direction))
+    return
+  end
+
+  local tile_width = Net.get_tile_width(area_id)
+  local tile_height = tile_width / 2
+  local offset_x = (tile_x - tile_y) * tile_width / 2
+  local offset_y = (tile_x + tile_y) * tile_height / 2
+
+  Net.move_object(
+    area_id,
+    event.object_id,
+    object.x + offset_x,
+    object.y + offset_y,
+    object.z
+  )
 end)
 
 -- handle battle results (never called if `Forget Results` is set to true on `Encounter` nodes)

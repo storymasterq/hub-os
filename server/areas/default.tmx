@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="isometric" renderorder="right-down" compressionlevel="0" width="19" height="15" tilewidth="64" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="155">
+<map version="1.8" tiledversion="1.8.2" orientation="isometric" renderorder="right-down" compressionlevel="0" width="19" height="15" tilewidth="64" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="156">
  <properties>
   <property name="Background Animation" value="/server/assets/bg.animation"/>
   <property name="Background Texture" value="/server/assets/bg.png"/>
@@ -357,7 +357,14 @@
    <properties>
     <property name="Mug" value="Player"/>
     <property name="Next" type="object" value="66"/>
-    <property name="Text" value="This is your own personal server!"/>
+    <property name="Text" value="Welcome to HOSSQ."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="66" type="Script Node: Message" x="264" y="464">
+   <properties>
+    <property name="Next" type="object" value="0"/>
+    <property name="Text" value="This is the Hub OS Server for StorymasterQ."/>
    </properties>
    <point/>
   </object>
@@ -753,7 +760,11 @@
     <property name="On Enter" type="object" value="153"/>
    </properties>
   </object>
-  <object id="152" type="Script Node: Teleport" x="304" y="176">
+  <object id="152" type="Script Node: Transfer To Area" x="304" y="176">
+   <properties>
+    <property name="Area" value="square"/>
+    <property name="Target" type="object" value="4"/>
+   </properties>
    <point/>
   </object>
   <object id="153" type="Script Node: Area Transition" x="248" y="-56">
@@ -765,6 +776,12 @@
    <point/>
   </object>
   <object id="154" name="Shop Map Marker" type="Shop" x="408" y="120">
+   <point/>
+  </object>
+  <object id="155" name="Square Return Target" x="288" y="64">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+   </properties>
    <point/>
   </object>
  </objectgroup>
